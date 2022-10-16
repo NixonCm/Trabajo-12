@@ -16,14 +16,17 @@ public class Empleado {
     int yearIngreso;
     
     public String mostrarInfo(){
-        var retorno = "empleado";
+        
+        var retorno = "El empleado se llama: " + this.nombre+ "ha trabajado "
+                + this.horasTrabajadas + "cobrando por hora " + 
+                "generando al año un ingrso de: " + this.yearIngreso;
         
         return retorno;
     }
     
     public double calcularIngresos(int yearActual){
         
-        var retorno=0.0;
+        var retorno=0.0d;
       
        
         return retorno;
